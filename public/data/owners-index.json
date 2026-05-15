@@ -1,0 +1,707 @@
+{
+  "generated_at": "2026-05-11T23:07:23.197Z",
+  "source": "MapPLUTO (see data-raw/)",
+  "metric": "lotarea",
+  "owners": [
+    {
+      "id": 1,
+      "ownername": "NYC DEPARTMENT OF PARKS AND RECREATION",
+      "color": "#E63946",
+      "parcel_count": 4901,
+      "total_lotarea_sqft": 1166240078,
+      "largest_parcel": {
+        "bbl": "2056500001",
+        "address": "PELHAM BAY PARK",
+        "lat": 40.8683436,
+        "lon": -73.7981419,
+        "lotarea_sqft": 74250000
+      }
+    },
+    {
+      "id": 2,
+      "ownername": "NATIONAL PARK SERVICE",
+      "color": "#1D3557",
+      "parcel_count": 48,
+      "total_lotarea_sqft": 407505774,
+      "largest_parcel": {
+        "bbl": "3045870012",
+        "address": "FOUNTAIN AVENUE",
+        "lat": 40.6133164,
+        "lon": -73.8581371,
+        "lotarea_sqft": 207391225
+      }
+    },
+    {
+      "id": 3,
+      "ownername": "PORT AUTHORITY OF NY AND NJ",
+      "color": "#F4A261",
+      "parcel_count": 167,
+      "total_lotarea_sqft": 236340559,
+      "largest_parcel": {
+        "bbl": "4142600001",
+        "address": "154-68 BROOKVILLE BLVD",
+        "lat": 40.647938,
+        "lon": -73.7892771,
+        "lotarea_sqft": 214378390
+      }
+    },
+    {
+      "id": 4,
+      "ownername": "NYC DEPARTMENT OF SMALL BUSINESS SERVICES",
+      "color": "#2A9D8F",
+      "parcel_count": 447,
+      "total_lotarea_sqft": 155700988,
+      "largest_parcel": {
+        "bbl": "4009260001",
+        "address": "83-00 23 AVENUE",
+        "lat": 40.7747472,
+        "lon": -73.8745206,
+        "lotarea_sqft": 29305534
+      }
+    },
+    {
+      "id": 5,
+      "ownername": "NYC DEPARTMENT OF EDUCATION",
+      "color": "#E76F51",
+      "parcel_count": 1133,
+      "total_lotarea_sqft": 97077281,
+      "largest_parcel": {
+        "bbl": "2051410150",
+        "address": "750 BAYCHESTER AVENUE",
+        "lat": 40.8740574,
+        "lon": -73.8319477,
+        "lotarea_sqft": 2720000
+      }
+    },
+    {
+      "id": 6,
+      "ownername": "NYC HOUSING AUTHORITY",
+      "color": "#A8DADC",
+      "parcel_count": 823,
+      "total_lotarea_sqft": 94096321,
+      "largest_parcel": {
+        "bbl": "4155010002",
+        "address": "14-56 BEACH CHANNEL DRIVE",
+        "lat": 40.6101715,
+        "lon": -73.7517486,
+        "lotarea_sqft": 2196584
+      }
+    },
+    {
+      "id": 7,
+      "ownername": "UNAVAILABLE OWNER",
+      "color": "#457B9D",
+      "parcel_count": 7636,
+      "total_lotarea_sqft": 80632871,
+      "largest_parcel": {
+        "bbl": "2026040074",
+        "address": "LEGGETT AVENUE",
+        "lat": 40.8122818,
+        "lon": -73.8970246,
+        "lotarea_sqft": 2687656
+      }
+    },
+    {
+      "id": 8,
+      "ownername": "NYC DEPARTMENT OF CITYWIDE ADMINISTRATIVE SERVICES",
+      "color": "#F1FA8C",
+      "parcel_count": 1897,
+      "total_lotarea_sqft": 55918230,
+      "largest_parcel": {
+        "bbl": "2056490001",
+        "address": "2131 HART STREET",
+        "lat": 40.8542799,
+        "lon": -73.7703612,
+        "lotarea_sqft": 4855000
+      }
+    },
+    {
+      "id": 9,
+      "ownername": "NYC DEPARTMENT OF ENVIRONMENTAL PROTECTION",
+      "color": "#B5179E",
+      "parcel_count": 971,
+      "total_lotarea_sqft": 51136953,
+      "largest_parcel": {
+        "bbl": "5002390100",
+        "address": "VICTORY BOULEVARD",
+        "lat": 40.6273433,
+        "lon": -74.09582,
+        "lotarea_sqft": 4167500
+      }
+    },
+    {
+      "id": 10,
+      "ownername": "NYC DEPARTMENT OF SANITATION",
+      "color": "#7209B7",
+      "parcel_count": 114,
+      "total_lotarea_sqft": 49653639,
+      "largest_parcel": {
+        "bbl": "5059000500",
+        "address": "1323 WEST SERVICE ROAD",
+        "lat": 40.5713345,
+        "lon": -74.1977282,
+        "lotarea_sqft": 12369565
+      }
+    },
+    {
+      "id": 11,
+      "ownername": "UNITED STATES OF AMERICA",
+      "color": "#3A86FF",
+      "parcel_count": 26,
+      "total_lotarea_sqft": 46307563,
+      "largest_parcel": {
+        "bbl": "4151000700",
+        "address": "159 STREET",
+        "lat": 40.6204615,
+        "lon": -73.8140927,
+        "lotarea_sqft": 20780000
+      }
+    },
+    {
+      "id": 12,
+      "ownername": "NAME NOT ON FILE",
+      "color": "#FB5607",
+      "parcel_count": 660,
+      "total_lotarea_sqft": 46109954,
+      "largest_parcel": {
+        "bbl": "4041580001",
+        "address": "144 STREET",
+        "lat": 40.7756665,
+        "lon": -73.8577912,
+        "lotarea_sqft": 27979732
+      }
+    },
+    {
+      "id": 13,
+      "ownername": "NYC TRANSIT AUTHORITY",
+      "color": "#FFBE0B",
+      "parcel_count": 584,
+      "total_lotarea_sqft": 40332643,
+      "largest_parcel": {
+        "bbl": "3072080040",
+        "address": "AVENUE X",
+        "lat": 40.5863928,
+        "lon": -73.9765943,
+        "lotarea_sqft": 2830528
+      }
+    },
+    {
+      "id": 14,
+      "ownername": "MALBA ASSOC",
+      "color": "#06D6A0",
+      "parcel_count": 2,
+      "total_lotarea_sqft": 35019153,
+      "largest_parcel": {
+        "bbl": "4044150001",
+        "address": "POWELLS COVE BLVD",
+        "lat": 40.7999175,
+        "lon": -73.8092609,
+        "lotarea_sqft": 35000000
+      }
+    },
+    {
+      "id": 15,
+      "ownername": "MTA - LIRR",
+      "color": "#8338EC",
+      "parcel_count": 471,
+      "total_lotarea_sqft": 34128381,
+      "largest_parcel": {
+        "bbl": "4002140001",
+        "address": "SKILLMAN AVENUE",
+        "lat": 40.7495769,
+        "lon": -73.9277415,
+        "lotarea_sqft": 2111555
+      }
+    },
+    {
+      "id": 16,
+      "ownername": "NYS DEPARTMENT OF ENVIRONMENTAL CONSERVATION",
+      "color": "#FF006E",
+      "parcel_count": 119,
+      "total_lotarea_sqft": 34065068,
+      "largest_parcel": {
+        "bbl": "5076440001",
+        "address": "HYLAN BOULEVARD",
+        "lat": 40.505246,
+        "lon": -74.2196623,
+        "lotarea_sqft": 8537766
+      }
+    },
+    {
+      "id": 17,
+      "ownername": "NYS OFFICE OF GENERAL SERVICES",
+      "color": "#118AB2",
+      "parcel_count": 43,
+      "total_lotarea_sqft": 31380996,
+      "largest_parcel": {
+        "bbl": "1011100001",
+        "address": "BODY OF WATER",
+        "lat": 40.7816525,
+        "lon": -73.9932152,
+        "lotarea_sqft": 22772335
+      }
+    },
+    {
+      "id": 18,
+      "ownername": "CITY OF NEW YORK",
+      "color": "#073B4C",
+      "parcel_count": 556,
+      "total_lotarea_sqft": 29911748,
+      "largest_parcel": {
+        "bbl": "4059070001",
+        "address": "23 AVENUE",
+        "lat": 40.8011341,
+        "lon": -73.7803546,
+        "lotarea_sqft": 12500000
+      }
+    },
+    {
+      "id": 19,
+      "ownername": "GREENWOOD CEMETRY",
+      "color": "#EF476F",
+      "parcel_count": 1,
+      "total_lotarea_sqft": 20309060,
+      "largest_parcel": {
+        "bbl": "3009020001",
+        "address": "500 20 STREET",
+        "lat": 40.652138,
+        "lon": -73.9902551,
+        "lotarea_sqft": 20309060
+      }
+    },
+    {
+      "id": 20,
+      "ownername": "DORMITORY AUTHORITY OF THE STATE OF NEW YORK",
+      "color": "#FFD166",
+      "parcel_count": 93,
+      "total_lotarea_sqft": 19531265,
+      "largest_parcel": {
+        "bbl": "5020400001",
+        "address": "2800 VICTORY BOULEVARD",
+        "lat": 40.6012477,
+        "lon": -74.1503611,
+        "lotarea_sqft": 8838314
+      }
+    },
+    {
+      "id": 21,
+      "ownername": "NYC DEPARTMENT OF CORRECTIONS",
+      "color": "#26547C",
+      "parcel_count": 4,
+      "total_lotarea_sqft": 18065534,
+      "largest_parcel": {
+        "bbl": "2026050040",
+        "address": "10-01 HAZEN STREET",
+        "lat": 40.7911254,
+        "lon": -73.8826407,
+        "lotarea_sqft": 17825000
+      }
+    },
+    {
+      "id": 22,
+      "ownername": "NYC DEPARTMENT OF TRANSPORTATION",
+      "color": "#06A77D",
+      "parcel_count": 665,
+      "total_lotarea_sqft": 17880761,
+      "largest_parcel": {
+        "bbl": "5017250075",
+        "address": "SOUTH AVENUE",
+        "lat": 40.6173788,
+        "lon": -74.173778,
+        "lotarea_sqft": 3533472
+      }
+    },
+    {
+      "id": 23,
+      "ownername": "BREEZY POINT COOPERATIVE, INC",
+      "color": "#D62246",
+      "parcel_count": 2,
+      "total_lotarea_sqft": 15842772,
+      "largest_parcel": {
+        "bbl": "4163500400",
+        "address": "217-02 BREEZY POINT BLVD",
+        "lat": 40.5568804,
+        "lon": -73.9207308,
+        "lotarea_sqft": 12253428
+      }
+    },
+    {
+      "id": 24,
+      "ownername": "SUTHERLAND MARINE DEVELOPMENT, LLC",
+      "color": "#4A4E69",
+      "parcel_count": 7,
+      "total_lotarea_sqft": 15640704,
+      "largest_parcel": {
+        "bbl": "5018350300",
+        "address": "ARTHUR KILL ROAD",
+        "lat": 40.623154,
+        "lon": -74.197489,
+        "lotarea_sqft": 4966563
+      }
+    },
+    {
+      "id": 25,
+      "ownername": "WOODLAWN CEMETERY",
+      "color": "#9A8C98",
+      "parcel_count": 1,
+      "total_lotarea_sqft": 14959200,
+      "largest_parcel": {
+        "bbl": "2033610001",
+        "address": "4199 WEBSTER AVENUE",
+        "lat": 40.8895756,
+        "lon": -73.8725028,
+        "lotarea_sqft": 14959200
+      }
+    },
+    {
+      "id": 26,
+      "ownername": "TR-ST PATRICKS CATHEDRAL",
+      "color": "#C9ADA7",
+      "parcel_count": 7,
+      "total_lotarea_sqft": 14344968,
+      "largest_parcel": {
+        "bbl": "4023110250",
+        "address": "49 STREET",
+        "lat": 40.7389167,
+        "lon": -73.9124239,
+        "lotarea_sqft": 4625000
+      }
+    },
+    {
+      "id": 27,
+      "ownername": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "color": "#22223B",
+      "parcel_count": 822,
+      "total_lotarea_sqft": 14045706,
+      "largest_parcel": {
+        "bbl": "3044520170",
+        "address": "VANDALIA AVENUE",
+        "lat": 40.6569558,
+        "lon": -73.8721004,
+        "lotarea_sqft": 1440422
+      }
+    },
+    {
+      "id": 28,
+      "ownername": "NYS DEPARTMENT OF TRANSPORTATION",
+      "color": "#4361EE",
+      "parcel_count": 282,
+      "total_lotarea_sqft": 13077781,
+      "largest_parcel": {
+        "bbl": "1006560001",
+        "address": "PIER 40",
+        "lat": 40.7293508,
+        "lon": -74.0130359,
+        "lotarea_sqft": 1096075
+      }
+    },
+    {
+      "id": 29,
+      "ownername": "CON EDISON",
+      "color": "#3F37C9",
+      "parcel_count": 38,
+      "total_lotarea_sqft": 12118853,
+      "largest_parcel": {
+        "bbl": "4008500001",
+        "address": "",
+        "lat": 40.7849018,
+        "lon": -73.9051341,
+        "lotarea_sqft": 8073465
+      }
+    },
+    {
+      "id": 30,
+      "ownername": "ST JOHNS CEMETERY",
+      "color": "#480CA8",
+      "parcel_count": 2,
+      "total_lotarea_sqft": 11899500,
+      "largest_parcel": {
+        "bbl": "4030710001",
+        "address": "80-01 METROPOLITAN AVENUE",
+        "lat": 40.7157423,
+        "lon": -73.8663061,
+        "lotarea_sqft": 9150700
+      }
+    },
+    {
+      "id": 31,
+      "ownername": "TRUSTEE OF COLUMBIA UNIVERSITY NYC",
+      "color": "#560BAD",
+      "parcel_count": 1,
+      "total_lotarea_sqft": 11320000,
+      "largest_parcel": {
+        "bbl": "1022552000",
+        "address": "269 DYCKMAN STREET",
+        "lat": 40.8734861,
+        "lon": -73.925694,
+        "lotarea_sqft": 11320000
+      }
+    },
+    {
+      "id": 32,
+      "ownername": "NP-OV BSS VENTURES - CINCINNATI, LLC",
+      "color": "#00BBF9",
+      "parcel_count": 2,
+      "total_lotarea_sqft": 10434529,
+      "largest_parcel": {
+        "bbl": "5072470001",
+        "address": "4101 ARTHUR KILL ROAD",
+        "lat": 40.5455128,
+        "lon": -74.2401025,
+        "lotarea_sqft": 9092029
+      }
+    },
+    {
+      "id": 33,
+      "ownername": "NYC HEALTH AND HOSPITALS CORPORATION",
+      "color": "#F72585",
+      "parcel_count": 45,
+      "total_lotarea_sqft": 10314496,
+      "largest_parcel": {
+        "bbl": "2042050001",
+        "address": "1400 PELHAM PARKWAY SOUTH",
+        "lat": 40.855466,
+        "lon": -73.8466096,
+        "lotarea_sqft": 1739930
+      }
+    },
+    {
+      "id": 34,
+      "ownername": "CEMETERY OF THE EVERGREENS",
+      "color": "#7B2CBF",
+      "parcel_count": 3,
+      "total_lotarea_sqft": 9994262,
+      "largest_parcel": {
+        "bbl": "4037250001",
+        "address": "CYPRESS AVENUE",
+        "lat": 40.6885293,
+        "lon": -73.8970463,
+        "lotarea_sqft": 5494000
+      }
+    },
+    {
+      "id": 35,
+      "ownername": "CMA CGM SA",
+      "color": "#5A189A",
+      "parcel_count": 2,
+      "total_lotarea_sqft": 9172688,
+      "largest_parcel": {
+        "bbl": "5014100250",
+        "address": "300 WESTERN AVENUE",
+        "lat": 40.6373469,
+        "lon": -74.1879793,
+        "lotarea_sqft": 9166500
+      }
+    },
+    {
+      "id": 36,
+      "ownername": "US ARMY FT HAMILTON",
+      "color": "#3C096C",
+      "parcel_count": 1,
+      "total_lotarea_sqft": 9045662,
+      "largest_parcel": {
+        "bbl": "5031280001",
+        "address": "BAY STREET",
+        "lat": 40.6004312,
+        "lon": -74.0579269,
+        "lotarea_sqft": 9045662
+      }
+    },
+    {
+      "id": 37,
+      "ownername": "JACK L TRUCTON",
+      "color": "#240046",
+      "parcel_count": 1,
+      "total_lotarea_sqft": 8875000,
+      "largest_parcel": {
+        "bbl": "4064531000",
+        "address": "134-16 HORACE HARDING EXPWY",
+        "lat": 40.736444,
+        "lon": -73.8313566,
+        "lotarea_sqft": 8875000
+      }
+    },
+    {
+      "id": 38,
+      "ownername": "FIRE DEPARTMENT OF NEW YORK",
+      "color": "#FFD60A",
+      "parcel_count": 262,
+      "total_lotarea_sqft": 8652566,
+      "largest_parcel": {
+        "bbl": "4059170001",
+        "address": "423 ABBOTT ROAD",
+        "lat": 40.7913966,
+        "lon": -73.7750816,
+        "lotarea_sqft": 5926250
+      }
+    },
+    {
+      "id": 39,
+      "ownername": "NYC HEALTH & HOSPITAL/SEAVIEW",
+      "color": "#FFC300",
+      "parcel_count": 2,
+      "total_lotarea_sqft": 8347883,
+      "largest_parcel": {
+        "bbl": "5009550100",
+        "address": "50 BRIELLE AVENUE",
+        "lat": 40.5911431,
+        "lon": -74.1310105,
+        "lotarea_sqft": 8259785
+      }
+    },
+    {
+      "id": 40,
+      "ownername": "GOVERNORS ISLAND CORPORATION",
+      "color": "#FF8500",
+      "parcel_count": 5,
+      "total_lotarea_sqft": 7877836,
+      "largest_parcel": {
+        "bbl": "1000010010",
+        "address": "301 COMFORT ROAD",
+        "lat": 40.6887742,
+        "lon": -74.0187035,
+        "lotarea_sqft": 7600835
+      }
+    },
+    {
+      "id": 41,
+      "ownername": "CONSOLIDATED EDISON CO.OF N.Y.,INC.",
+      "color": "#FF6D00",
+      "parcel_count": 64,
+      "total_lotarea_sqft": 7660063,
+      "largest_parcel": {
+        "bbl": "5027050300",
+        "address": "VICTORY BOULEVARD",
+        "lat": 40.583006,
+        "lon": -74.2020937,
+        "lotarea_sqft": 4425876
+      }
+    },
+    {
+      "id": 42,
+      "ownername": "RIVERBAY CORPORATION",
+      "color": "#FF5400",
+      "parcel_count": 12,
+      "total_lotarea_sqft": 7621476,
+      "largest_parcel": {
+        "bbl": "2051410120",
+        "address": "2049 BARTOW AVENUE",
+        "lat": 40.8750127,
+        "lon": -73.8283619,
+        "lotarea_sqft": 5048550
+      }
+    },
+    {
+      "id": 43,
+      "ownername": "NYS COMPTROLLER'S OFFICE",
+      "color": "#FF0054",
+      "parcel_count": 6,
+      "total_lotarea_sqft": 7527005,
+      "largest_parcel": {
+        "bbl": "4115430002",
+        "address": "110-10 ROCKAWAY BOULEVARD",
+        "lat": 40.6726436,
+        "lon": -73.8307068,
+        "lotarea_sqft": 7492320
+      }
+    },
+    {
+      "id": 44,
+      "ownername": "DEPARTMENT OF THE ARMY",
+      "color": "#9E0059",
+      "parcel_count": 1,
+      "total_lotarea_sqft": 7446955,
+      "largest_parcel": {
+        "bbl": "3061530001",
+        "address": "9275 FT HAMILTON PARKWAY",
+        "lat": 40.6082374,
+        "lon": -74.0290605,
+        "lotarea_sqft": 7446955
+      }
+    },
+    {
+      "id": 45,
+      "ownername": "MT LEBANON CEMETARY",
+      "color": "#390099",
+      "parcel_count": 1,
+      "total_lotarea_sqft": 7405200,
+      "largest_parcel": {
+        "bbl": "4037500060",
+        "address": "73-01 MYRTLE AVENUE",
+        "lat": 40.698947,
+        "lon": -73.8761131,
+        "lotarea_sqft": 7405200
+      }
+    },
+    {
+      "id": 46,
+      "ownername": "NYS OFFICE FOR PEOPLE WITH DEVELOPMENTAL DISABILITIES",
+      "color": "#8AC926",
+      "parcel_count": 15,
+      "total_lotarea_sqft": 7274523,
+      "largest_parcel": {
+        "bbl": "5020400400",
+        "address": "1050 FOREST HILL ROAD",
+        "lat": 40.6001063,
+        "lon": -74.1436138,
+        "lotarea_sqft": 4500000
+      }
+    },
+    {
+      "id": 47,
+      "ownername": "MTA - STATEN ISLAND RAILWAY",
+      "color": "#52B788",
+      "parcel_count": 231,
+      "total_lotarea_sqft": 6583776,
+      "largest_parcel": {
+        "bbl": "5012840200",
+        "address": "HOLLAND AVENUE",
+        "lat": 40.6321409,
+        "lon": -74.1697741,
+        "lotarea_sqft": 812093
+      }
+    },
+    {
+      "id": 48,
+      "ownername": "PARKCHESTER SOUTH CONDOMINIUM ASSOC",
+      "color": "#2D6A4F",
+      "parcel_count": 4,
+      "total_lotarea_sqft": 6574539,
+      "largest_parcel": {
+        "bbl": "2039297501",
+        "address": "63 METROPOLITAN OVAL",
+        "lat": 40.8340869,
+        "lon": -73.8614029,
+        "lotarea_sqft": 3309242
+      }
+    },
+    {
+      "id": 49,
+      "ownername": "BROOKLYN UNION GAS COMPANY",
+      "color": "#1B4332",
+      "parcel_count": 21,
+      "total_lotarea_sqft": 6020277,
+      "largest_parcel": {
+        "bbl": "3028370001",
+        "address": "PORTER AVENUE",
+        "lat": 40.7211323,
+        "lon": -73.93103,
+        "lotarea_sqft": 5137000
+      }
+    },
+    {
+      "id": 50,
+      "ownername": "GLEN OAKS VILLAGE OWNERS INC",
+      "color": "#081C15",
+      "parcel_count": 20,
+      "total_lotarea_sqft": 5508135,
+      "largest_parcel": {
+        "bbl": "4084420001",
+        "address": "70-43 LITTLE NECK PARKWAY",
+        "lat": 40.7507923,
+        "lon": -73.7194815,
+        "lotarea_sqft": 432000
+      }
+    }
+  ]
+}

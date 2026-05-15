@@ -1,0 +1,131 @@
+/* Palantir-style overrides for cesium-navigation-es6.
+ * The widget injects DOM with these class names (.compass, .navigation-controls,
+ * .distance-legend, etc.). We re-skin to match the sidebar/waymarker aesthetic:
+ * black background, thin white-at-low-opacity borders, sharp corners, monospace.
+ */
+
+:root {
+  --pal-bg: #0a0b0d;
+  --pal-bg-2: #111316;
+  --pal-fg: #e8e8e8;
+  --pal-muted: #7d8088;
+  --pal-border: rgba(255, 255, 255, 0.18);
+  --pal-accent: #00f0ff;
+  --pal-mono: ui-monospace, 'JetBrains Mono', 'IBM Plex Mono', 'SF Mono', Menlo, Consolas, monospace;
+}
+
+/* === Compass ============================================================ */
+.compass {
+  /* Default places this at right:0 top:100. Shift slightly inward. */
+  right: 12px !important;
+  top: 12px !important;
+  width: 92px !important;
+  height: 92px !important;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+}
+
+/* Outer ring (the rotating tick band). Make it a thin neutral ring. */
+.compass-outer-ring {
+  fill: rgba(255, 255, 255, 0.55) !important;
+}
+
+.compass-outer-ring-background {
+  background: var(--pal-bg) !important;
+  border-color: var(--pal-border) !important;
+  border-width: 10px !important;
+  border-radius: 50% !important;
+}
+
+/* Inner gyro (the click-drag handle in the center) */
+.compass-gyro {
+  fill: rgba(255, 255, 255, 0.5) !important;
+}
+.compass-gyro-active {
+  fill: var(--pal-accent) !important;
+}
+.compass-gyro-background {
+  background: var(--pal-bg-2) !important;
+  border-color: var(--pal-border) !important;
+  border-radius: 50% !important;
+}
+.compass-gyro-background:hover + .compass-gyro {
+  fill: var(--pal-accent) !important;
+}
+
+/* The arrow that appears when you click-and-drag to rotate */
+.compass-rotation-marker {
+  fill: var(--pal-accent) !important;
+}
+
+/* === Zoom / reset stack ================================================= */
+.navigation-controls {
+  /* Center under the 92px compass at (right:12, top:12). Compass center is at
+   * right:58; with width 32 the controls sit at right: 58 - 16 = 42. */
+  right: 42px !important;
+  top: 116px !important;
+  width: 32px !important;
+  border: 1px solid var(--pal-border) !important;
+  background: var(--pal-bg) !important;
+  font-family: var(--pal-mono) !important;
+  font-size: 11px !important;
+  letter-spacing: 0.04em;
+  padding: 0 !important;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+}
+
+.navigation-control,
+.navigation-control-last {
+  border-bottom: 1px solid var(--pal-border) !important;
+  background: transparent !important;
+  transition: background 80ms linear;
+}
+.navigation-control:hover,
+.navigation-control-last:hover {
+  background: var(--pal-bg-2) !important;
+}
+.navigation-control-last {
+  border-bottom: 0 !important;
+}
+
+.navigation-control-icon-zoom-in,
+.navigation-control-icon-zoom-out {
+  font-size: 14px !important;
+  color: var(--pal-fg) !important;
+  padding: 6px 0 !important;
+  font-family: var(--pal-mono) !important;
+  line-height: 1 !important;
+}
+
+.navigation-control-icon-reset {
+  width: 12px !important;
+  height: 12px !important;
+  fill: var(--pal-fg) !important;
+  padding: 8px !important;
+  margin: 0 auto;
+  display: block;
+}
+
+/* === Distance legend (bottom-right) ===================================== */
+.distance-legend {
+  background: var(--pal-bg) !important;
+  border: 1px solid var(--pal-border) !important;
+  border-radius: 0 !important;
+  padding: 0 8px !important;
+  bottom: 16px !important;
+  right: 16px !important;
+  left: auto !important;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+}
+
+.distance-legend-label {
+  font-family: var(--pal-mono) !important;
+  font-size: 10px !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--pal-muted) !important;
+  line-height: 30px !important;
+}
+
+.distance-legend-scale-bar {
+  border-color: var(--pal-fg) !important;
+}
